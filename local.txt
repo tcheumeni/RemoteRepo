@@ -55,3 +55,4 @@ resource "aws_s3_bucket_policy" "state_terraform_s3" {
   policy = "${data.aws_iam_policy_document.state_terraform_s3.json}"
 }
 #adding nothing
+#modifying
